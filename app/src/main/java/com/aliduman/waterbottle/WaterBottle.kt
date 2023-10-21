@@ -38,7 +38,7 @@ fun WatterBottle(
 
     val waterPercentage = animateFloatAsState(
         targetValue = (usedWaterAmount.toFloat() / totalWaterAmount.toFloat()),
-        label = "Water Waves animation",
+        label = "Water Waves animation",//??
         animationSpec = tween(durationMillis = 1000)
     ).value
 
